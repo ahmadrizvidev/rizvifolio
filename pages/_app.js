@@ -1,11 +1,11 @@
 // pages/_app.js
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import InitialTransition from '@/Components/InitialTransition';
+import InitialTransition from '@/pages/Components/InitialTransition';
 import '../styles/globals.css';
-import Header from '@/Components/Navbar';
+import Header from '@/pages/Components/Navbar';
 import { useRouter } from 'next/router';
-import Footer from '@/Components/Footer';
+import Footer from '@/pages/Components/Footer';
 
 const pageTransition = {
   initial: { opacity: 0, y: 100 },
