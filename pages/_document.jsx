@@ -13,7 +13,7 @@ export default function Document() {
         <meta name="google" content="notranslate" />
         <meta name="description" content="Explore Ahmad Hassan's projects specializing in WordPress and Shopify at rizvidev.site." />
         <meta name="keywords" content="Ahmad Hassan, rizvidev.site, web development, WordPress, Shopify, portfolio, e-commerce, website design, custom websites, online solutions" />
-        
+        <meta name="google-site-verification" content="QWXwooAVdPxDBPua7NU3jA_EwzSIJjX7TaoWB12NzRo" />
         <meta property="og:title" content="Ahmad Hassan | Web Development Portfolio" />
         <meta property="og:description" content="Explore Ahmad Hassan's projects specializing in WordPress and Shopify at rizvidev.site." />
         <meta property="og:image" content="https://rizvidev.site/assets/hero1.png" /> 
@@ -21,6 +21,7 @@ export default function Document() {
        
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="canonical" href="https://rizvidev.site" />
+
       </Head>
       <body>
         <Main />
