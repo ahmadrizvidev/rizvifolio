@@ -68,7 +68,6 @@ function Hero() {
                   alt="Ahmad Hassan" 
                 />
                 {/* Overlay */}
-                <div className="absolute inset-0 bg-black opacity-10 rounded-full" /> {/* Overlay */}
               </div>
             </div>            
 
@@ -87,12 +86,16 @@ function Hero() {
                 strokeWidth="4"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                initial={{ rotate: 0 }}
-                animate={{ rotate: 360 }}
+                initial={{ strokeDasharray: "24 10 0 0" }}
+                animate={{ 
+                  strokeDasharray: ["15 120 25 25", "16 25 92 72", "4 250 22 22"],
+                  rotate: [120, 360], // Maintain the rotation effect
+                }}
                 transition={{
-                  duration: 10,
+                  duration: 20,
                   repeat: Infinity,
-                  ease: "linear",
+                  ease: "linear", // Use a linear easing for consistent speed
+                  repeatType: 'loop' // Repeat the loop rather than reverse
                 }}
               />
             </motion.svg>
