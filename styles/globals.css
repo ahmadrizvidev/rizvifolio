@@ -12,7 +12,10 @@ body {
   height: 100vh;
   text-align: center;
 }
-
+.work img {
+  border: 2px solid #0bfa9d;
+  transition: all ease 0.5s;
+}
 .wrapper button {
   position: relative;
   top: 50%;

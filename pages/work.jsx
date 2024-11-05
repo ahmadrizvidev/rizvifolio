@@ -71,11 +71,11 @@ const Work = () => {
             className="flex flex-col md:flex-row items-center gap-[100px] py-10 px-4 lg:px-12 justify-center"
           >
             {/* Image Section */}
-            <div className="relative flex flex-col w-full max-w-md order-1 md:order-2">
+            <div className="relative flex flex-col w-full max-w-full order-1 md:order-2">
               <img
                 src={projects[currentIndex].imageUrl}
                 alt={projects[currentIndex].title}
-                className="w-full h-[47vh] object-cover mx-auto rounded-lg"
+                className="w-full h-full object-cover mx-auto rounded-lg"
               />
             </div>
 
